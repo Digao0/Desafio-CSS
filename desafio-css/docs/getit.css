@@ -27,12 +27,116 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.appbar {
+  display: flex;
+
+  background-color: #f7d736;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.logo { 
+  margin: 6px;
+  width: 5%;
+
+}
+
+.subtitle {
+  align-self: center;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+
+
+
+}
+
+.form-card{
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  margin-top: 20px;
+  width: 32%;
+  border-radius: 10px;
+
+
+}
+
+.form-card-title{
+  border: none;
+  margin: 1.5%;
+  font-size: large;
+
+
+}
+
+.autoresize{
+  border: none;
+  margin: 1.5%;
+}
+
+
+.card-container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  
+  
+  
+}
+
+.card{
+  position: relative;
+  display: flex;
+  background-color: #3cbd76;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);  
+
+  width: 14rem;
+  height: 9rem;
+  margin: 0.5rem;
+  border-radius: 10px; 
+  padding-left: 0.3rem; 
+  padding-right: 0.3rem ;
+
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+
+}
+
+.card-title{
+  position: absolute;
+  font-family: 'Permanent Marker', cursive;
+  font-weight: 600;
+  height: 30%;
+  left:0.5rem;
+  top: 0.2rem;
+  text-align: left;
+}
+
+.card-content{
+  display: flex;
+  height: 80%;
+  font-family: 'Permanent Marker', cursive;
+  color:       #4c4c4c;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
-/* .btn {
+.btn {
   position: relative;
   display: block;
   padding: 10px 15px;
+  margin: 10px;
 
   overflow: hidden;
 
@@ -57,7 +161,7 @@ body {
   top: 50%;
   left: 50%;
 
-  display: block;
+  display: flex;
   width: 0;
   padding-top: 0;
 
@@ -77,4 +181,68 @@ body {
   padding-top: 120%;
 
   transition: width 0.2s ease-out, padding-top 0.2s ease-out;
-} */
+} 
+
+
+.card-color-1 {
+  background-color: #ead3a7; 
+}
+
+.card-color-2 {
+  background-color: #9de0f5; 
+}
+
+.card-color-3 {
+  background-color: #ef89ba;
+}
+
+.card-color-4 {
+  background-color: #fae890; 
+}
+
+.card-color-5 {
+background-color: #abe9c1; 
+}
+
+
+.card-rotation-1 {
+  transform: rotate(1deg);
+}
+
+.card-rotation-2 {
+  transform: rotate(2deg);
+}
+
+.card-rotation-3 {
+  transform: rotate(3deg);
+}
+
+.card-rotation-4 {
+  transform: rotate(4deg);
+}
+
+.card-rotation-5 {
+  transform: rotate(5deg);
+}
+
+.card-rotation-6 {
+  transform: rotate(-1deg);
+}
+
+.card-rotation-7 {
+  transform: rotate(-2deg);
+}
+
+.card-rotation-8 {
+  transform: rotate(-3deg);
+}
+
+.card-rotation-9 {
+  transform: rotate(-4deg);
+}
+
+.card-rotation-10 {
+  transform: rotate(-5deg);
+}
+
+
